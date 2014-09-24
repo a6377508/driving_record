@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+    android:minHeight="@dimen/listview_singleitem_height"
+    android:background="@drawable/list_item"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/item_icon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+    	android:layout_marginLeft="@dimen/listview_group_paddingleft"
+		android:layout_marginTop="@dimen/menu_item_icon_margintoporbottom"
+		android:layout_marginBottom="@dimen/menu_item_icon_margintoporbottom" />
+
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/item_icon1"
+        android:layout_centerVertical="true"
+		android:paddingLeft="@dimen/menu_item_text_paddingleft"
+        android:textColor="@color/menu_item_textcolor"
+		android:textSize="@dimen/textSizeLarge" />
+
+    <ImageView
+        android:id="@+id/item_icon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+		android:layout_marginRight="@dimen/menu_item_icon_marginleft"
+		android:layout_marginTop="@dimen/menu_item_icon_margintoporbottom"
+		android:layout_marginBottom="@dimen/menu_item_icon_margintoporbottom" />
+
+    <TextView
+        android:id="@+id/item_value"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+		android:layout_marginRight="@dimen/menu_item_icon_marginleft"
+		android:layout_marginTop="@dimen/menu_item_icon_margintoporbottom"
+        android:layout_toLeftOf="@+id/item_icon2"
+        android:layout_centerVertical="true"
+		android:textColor="@color/menu_item_textcolor"
+		android:textSize="@dimen/textSizeLarge" />
+
+</RelativeLayout>

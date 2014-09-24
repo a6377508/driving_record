@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--  -->
+    <SurfaceView android:id="@+id/camera_preview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+    
+    
+    <!-- top -->
+    <include
+        android:id="@+id/video_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/video_top" />
+    
+    <!-- 开始/结束 录制按钮 -->
+    <Button 
+        android:id="@+id/bt_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/navi_video_start"
+        android:layout_marginBottom="3dip"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+    
+    <!-- 设置 -->
+    <Button
+        android:id="@+id/bt_video_setting" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/navi_video_setting"
+        android:layout_toLeftOf="@id/bt_record"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dip"
+        />
+    
+    
+    <!-- 显示 -->
+    <Button
+        android:id="@+id/bt_video_show" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/navi_video_show"
+        android:layout_toRightOf="@id/bt_record"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dip"
+        />
+
+    
+    <!-- 测试文本 -->
+    <TextView 
+        android:id="@+id/video_test"
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content" 
+        android:layout_centerVertical="true"
+        android:text="DEBUG： 录制周期30s"
+        android:layout_below="@id/video_top"
+        android:textColor="#FF0000"
+        android:visibility="gone"
+        />
+    
+    <CheckBox 
+        android:id="@+id/checkbox_is_background" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="后台录像"
+        android:button="@drawable/checkbox_style"
+        />
+    
+    <!-- 打开GPS -->
+    <Button 
+        android:id="@+id/bt_open_gps" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开GPS"
+        android:layout_below="@id/checkbox_is_background"
+        android:layout_marginTop="10dip"
+        android:textColor="#FF0000"
+        />
+    
+</RelativeLayout>

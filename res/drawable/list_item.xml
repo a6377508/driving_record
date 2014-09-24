@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+     <item  android:state_pressed="true"
+            android:drawable="@drawable/list_item_selector_pressed" /> <!-- pressed -->
+	<item  android:state_pressed="false"
+	    android:drawable="@color/general_list_back_color"></item>
+</selector>

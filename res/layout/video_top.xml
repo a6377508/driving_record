@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <!-- 后台录制 -->
+    <Button 
+        android:id="@+id/bt_video_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="后台录制"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dip"
+        android:layout_centerVertical="true"
+        android:textSize="17sp"
+        android:visibility="gone"
+        />
+    
+    <!-- 更新时间 -->
+    <TextView 
+        android:id="@+id/tv_show_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REC 00:00"
+        android:textColor="#FF0000"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dip"
+        android:layout_centerVertical="true"
+        android:textSize="17sp"
+        android:visibility="gone"
+        />
+</RelativeLayout>

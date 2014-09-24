@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:background="@color/general_back_color">
+	
+	<com.autonavi.xmgd.view.GDTitle
+		android:id="@+id/title_simplelist"
+		android:layout_width="wrap_content"
+       	android:layout_height="@dimen/gdtitle_height" />
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1">
+		
+	    <View 
+	        android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:background="#000000"
+	        />
+	    
+	    <!-- 当前路径 -->
+	    <TextView 
+	        android:id="@+id/file_manager_currentfilepath"
+	        android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/general_list_back_color"
+			android:textColor="#000000"
+	        />
+	    
+	    <View 
+	        android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:background="#000000"
+	        />
+	    
+		<ListView
+			android:id="@+id/list_listactivity"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" 
+			android:cacheColorHint="@color/general_list_back_color"
+			android:background="@color/general_list_back_color"
+			android:dividerHeight="0.5dip"
+			android:divider="@color/list_driver_color"
+			android:childDivider="@color/list_driver_color"/>
+
+	</LinearLayout>
+
+</LinearLayout>

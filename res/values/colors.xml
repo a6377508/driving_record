@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<color name="maptitle_roadname_color">#FFFFFF</color>
+	
+	<color name="list_driver_color">#CCCCCC</color>
+	
+	<color name="default_textcolor">#656565</color>
+	<color name="listview_default_text_color">#333333</color>
+	
+    <!-- gdtitle.xml -->
+	<color name="gdtitle_textcolor">#000000</color>
+	
+	<!-- general_back -->
+	<color name="general_back_color">#ECECEC</color>
+	
+	<!-- general_list_back -->
+	<color name="general_list_back_color">#FFFFFF</color>
+	
+	<!-- poidetail.xml -->
+	<color name="poidetail_title_textcolor">#000000</color>
+	<color name="poidetail_general_textcolor_normal">#333333</color>
+	<color name="poidetail_general_textcolor_disable">#aaaaaa</color>
+	
+	<!-- GDViewPager -->
+	<color name="viewpager_tab_textcolor">#AB1516</color>
+	<color name="viewpager_tab_textcolor_unselect">#888888</color>
+	
+	<!-- menu_item.xml -->
+	<color name="menu_item_textcolor">#333333</color>
+	
+	<!-- navititle -->
+	<color name="navititle_turndir_textcolor">#FE7E03</color>
+	<color name="navititle_remain_textcolor">#FFFFFF</color>
+	
+	<color name="map_toolbar_textcolor">#FFFFFF</color>
+	
+	<!-- routeinfo -->
+	<color name="routeinfo_next_text">#333333</color>
+	
+	<!-- routesmanage -->
+	<color name="routesmanage_statistics_color">#FFFFFF</color>
+	
+	<color name="keyword_high_light_color">#AB1516</color>
+	
+	
+	<!-- version.xml -->
+	<color name="versiontext_textcolor">#000000</color>
+	
+	<!-- search.xml -->
+	<color name="search_editarea_color">#ECECEC</color>
+	<color name="search_editext_color">#000000</color>
+	<color name="search_editext_hintcolor">#AAAAAA</color>
+	<color name="clear_history_record_color">#888888</color>
+	<color name="search_area_background_color">#4d4d4d</color>
+	<color name="search_area_textcolor">#FFFFFF</color>
+	
+	<!-- searchresult.xml -->
+	<color name="search_result_noresult_textcolor">#333333</color>
+	<color name="search_result_noresult_textview_color">#FFFFFF</color>
+	
+	<!-- search_history_record_item.xml -->
+	<color name="search_history_record_item_textcolor">#5e5e5e</color>
+	
+	<!-- group_item_poiinfo.xml -->
+	<color name="group_item_poiinfo_name_textcolor">#333333</color>
+	<color name="group_item_poiinfo_extra_textcolor">#5e5e5e</color>
+	
+	<!-- poi_feedback.xml -->
+	<color name="poifeedback_start_color">#FF0000</color>
+	
+	<!-- road_feedback.xml -->
+	<color name="roadfeedback_start_color">#FF0000</color>
+	
+	<!-- feedback -->
+	<color name="feedback_textview_textcolor">#656565</color>
+	<color name="feedback_history_childitem_textcolor">#98A0A2</color>
+	
+	<!-- dataupdate -->
+	<color name="dataupdate_textcolor">#656565</color>
+	
+	<!-- gdaccount -->
+	<color name="gdaccount_textview_textcolor">#656c6f</color>
+	<!-- 用户自定义dialog -->
+	  <color name="content_color">#333333</color>
+	  <color name="btn_color">#000000</color>
+	  <color name="listview_pressed_color">#e8e8e8</color>
+	
+</resources>

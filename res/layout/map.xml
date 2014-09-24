@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!--  -->
+    
+    <ImageButton 
+        android:id="@+id/bt_navi_recorder"
+        android:layout_width="150dip"
+    	android:layout_height="150dip"
+    	android:layout_gravity="center"
+    	android:background="@drawable/btn_recorder"
+        />
+    
+    <Button 
+        android:id="@+id/bt_video_folder"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="视频文件夹"
+        />
+    
+    <Button 
+        android:id="@+id/bt_recorder_setting"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="设置"
+        />
+    
+    <!-- 显示版本号 -->
+    <TextView 
+        android:id="@+id/tv_show_version"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="10dip"
+        android:text="版本： 1.0.003"
+        android:textSize="20sp"
+        android:textColor="#FF0000"
+        />
+    
+</LinearLayout>

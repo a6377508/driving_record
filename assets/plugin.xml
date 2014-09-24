@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	
+	<!--版本-->
+	<version>1</version>
+	
+	<!--开发商-->
+	<vendor>autonavi</vendor>
+	
+	<!--下载地址-->
+	<url>www.autonavi.com</url>
+	
+	<!--插件apk的存在形式：0-SD卡文件形式；1-安装形式；2-内置；3-宿主apk的assets中-->
+	<form>1</form>
+	
+	<!--插件apk的文件名（全小写）-->
+	<file>com.saiwei.recorder.apk</file>
+	
+	<!--插件apk的包名-->
+	<package>com.saiwei.recorder</package>
+	
+	<!--插件入口类，即实现了接口的类-->
+	<entry>com.saiwei.recorder.CarRecorder</entry>
+	
+	<!--插件标题名-->
+	<title>行车记录仪插件</title>
+	
+	<!--插件描述-->
+	<description>随便写点什么</description>
+	
+	<!--提交高德后台审核后，由高德后台提供唯一键值，该值可唯一标识一个插件-->
+	<key>0101290551910FF8BEF844754EE47D5D8E91053DA9FE655879865AB67342C65499979BC77D5E250C9579567F47F8C6D3CD0EA327EE5CE7E47CBA3EFB8E68864DEFC57289C94C92868B13592DB2E8EE5BA5836B24B3B44362A9C0CC1CC61C3E346503F09501BADD7553E7DA688CEC97745AE5BBA2D508E02CDE8327FE085FBE7E50C3745F2902B87060143BBA8E56E0964680437D66E371C7A877377D7337C8971C441599E4F4B329730DE85BB397ED77381B</key>
+	
+	<!--插件实现的接口-->
+	<feature>com.saiwei.recorder</feature>
+	
+</plugin>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- ListView _ item -->
+	<dimen name="listview_singleitem_height">60dip</dimen>
+	<dimen name="listview_doubleitem_height">60dip</dimen>
+	<dimen name="listview_group_paddingleft">10dip</dimen>
+	<dimen name="listview_text_size">15sp</dimen>
+	<dimen name="listview_child_paddingleft">40dip</dimen>
+	<dimen name="edittext_min_height">45dip</dimen>
+	
+	<!-- system_config_item.xml -->
+	<dimen name="systemconfig_item_icon1_margin">6dip</dimen>
+	<dimen name="systemconfig_item_text_height">50dip</dimen>
+	<dimen name="systemconfig_item_text_paddingleft">6dip</dimen>
+	<dimen name="systemconfig_item_icon2_marginright">6dip</dimen>
+	<dimen name="systemconfig_item_icon2_margintop">20dip</dimen>
+	<dimen name="systemconfig_item_value_height">50dip</dimen>
+	<dimen name="systemconfig_item_value_margintop">4dip</dimen>
+	<dimen name="systemconfig_item_value_marginright">7dip</dimen>
+    
+    <!-- gdtitle -->
+	<dimen name="gdtitle_height">48dip</dimen>
+	<dimen name="gdtitle_padding">6dip</dimen>
+	<dimen name="gdtitle_text_size">20sp</dimen>
+	
+	<!-- menu_item.xml -->
+	<dimen name="menu_item_icon_marginleft">15dip</dimen>
+	<dimen name="menu_item_icon_margintoporbottom">5dip</dimen>
+	<dimen name="menu_item_text_height">45dip</dimen>
+	<dimen name="menu_item_text_paddingleft">10dip</dimen>
+	
+	<dimen name="textSizeLarge">18sp</dimen>
+    <dimen name="textSizeMedium">16sp</dimen>
+    <dimen name="textSizeSmall">14sp</dimen>
+    
+		<!-- custom dialog -->
+	<dimen name="dialog_width">320dip</dimen>
+	<dimen name="progress_padding">5dip</dimen>
+	<dimen name="title_text_size">20sp</dimen>
+	<dimen name="dialog_content_padding">6dip</dimen>
+	<dimen name="dialog_btn_padding_top">12dip</dimen>
+	<dimen name="dialog_btn_padding_buttom">20dip</dimen>
+</resources>

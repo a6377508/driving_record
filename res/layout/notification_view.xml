@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notification_icon" />
+
+    <LinearLayout
+        android:id="@+id/notification_message_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:layout_weight="1">
+
+        <!--  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:text="行车记录仪：后台录像中！" 
+            android:gravity="center_vertical"
+            />
+        
+        <TextView
+            android:id="@+id/notification_update_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:text="REC 00:00"
+            android:textColor="#FF0000"
+            android:gravity="center_vertical" />
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/notification_stop_recorder"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:text="STOP" />
+
+</LinearLayout>

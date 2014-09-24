@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">com.saiwei.recorder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
+    <string name="image_file_name_format">"'IMG'_yyyyMMdd_HHmmss"</string>
+    <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
+    <string name="camera_error_title">"相机故障"</string>
+    <string name="cannot_connect_camera">"无法连接到相机。"</string>
+    <string name="camera_disabled">"由于安全政策的限制，相机已被停用。"</string>
+    <string name="video_setting">设置</string>
+    <string name="video_setting_quality">视频质量</string>
+    <string name="video_setting_record_rate">视频录制时长</string>
+	<string name="video_setting_file_path">视频文件路径</string>
+
+    
+    <string name="dialog_message_whether_close_car_recorder">是否关闭行车记录仪?</string>
+    
+
+    <!-- dialog -->
+    <string name="alert_dialog_title">提示</string>
+    
+    <!-- 默认存储路径 -->
+    
+    <string name="navigator_minute">分钟</string>
+    
+</resources>
